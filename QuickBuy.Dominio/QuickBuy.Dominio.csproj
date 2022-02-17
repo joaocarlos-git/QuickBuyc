@@ -4,4 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Contratos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Enumerados\TipoFormaPagamentoEnum.cs">
+      <CustomToolNamespace>m</CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
 </Project>
